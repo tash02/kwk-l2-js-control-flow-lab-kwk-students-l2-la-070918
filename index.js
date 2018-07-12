@@ -30,8 +30,12 @@ function scuberGreetingForFeet(feet) {
       result = ("Thank you so much.")
       return result
     }
-    else if (tip !== "generous" ) {
+    else if (tip == "not as generous" ) {
       result = ("Thank you.")
+      return result
+    }
+    else if (tip !== "generous"){
+      result = ("Bye.")
       return result
     }
   }
